@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    max-width: inherit;
+    height: 1000px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("bank.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+
+}
+
+.navbar{
+    width: inherit;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0px 50px 0px 50px;
+}
+
+.logo{
+    width: 70px;
+    
+}
+
+nav{
+    flex: 1;
+    text-align:right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.row{
+    display: flex;
+    height: 70%;
+    align-items: top;
+
+}
+
+.col{
+    flex-basis: 20%;
+}
+.col h1{
+    margin-left: 100px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.col h4{
+    /* margin-left: 250px; */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.col img{
+    margin-left: 620px;
+    width: 250px;
+
+}
+
+.card{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    /* margin: 50px 20px; */
+    margin-left: 220px;
+    margin-top: 20px;
+    border: 2px solid rgb(26, 26, 26);
+    flex-basis: 50%;
+}
+
+.card1{
+    background-image: url("user.png");
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+.card2{
+    background-image: url("Transfer.png");
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+.card3{
+    background-image: url("history.jpg");
+    background-position: center;
+    background-size: 70px;
+    background-repeat: no-repeat;
+}
+
+button{
+    margin-top: 170px;
+    margin-left: 0px;
+    width: 150px;
+}
+
+
+h2 {
+    margin-top: 50px;
+    padding-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.transfer {
+    margin-left: 500px;
+    margin-top: 70px;
+    padding: 50px;
+    /* padding-left: 100px; */
+    height: 550px;
+    width: 550px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.transfer img {
+    height: 200px;
+    padding-left: 120px;
+}
+
+.transfer label {
+    margin-top: 10px;
+    padding-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.transfer input {
+    width: 450px;
+    height: 50px;
+}
+
+.transfer button {
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 150px;
+}
+
+
+
+
+
+
+.page-footer{
+    /* height: 12%; */
+    margin-left: 0px;
+    background-color: gray;
+    color: white;
+    display: block;
+}
+
+
